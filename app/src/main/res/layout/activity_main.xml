@@ -13,36 +13,48 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Popular Movies"
-        android:onClick="launchApp"/>
+        android:onClick="launchApp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#2E3D49"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Stock Hawk"
-        android:onClick="launchApp"/>
+        android:onClick="launchApp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#2E3D49"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Build-it-Bigger"
-        android:onClick="launchApp"/>
+        android:onClick="launchApp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#2E3D49"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Make Your App Material"
-        android:onClick="launchApp"/>
+        android:onClick="launchApp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#2E3D49"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Go Ubiquitous"
-        android:onClick="launchApp"/>
+        android:onClick="launchApp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#2E3D49"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Capstone"
-        android:onClick="launchApp"/>
+        android:onClick="launchApp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#2E3D49"/>
 
 </LinearLayout>
