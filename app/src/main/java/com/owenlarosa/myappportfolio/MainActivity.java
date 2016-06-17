@@ -1,11 +1,16 @@
 package com.owenlarosa.myappportfolio;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
+    // base string to display in the toast
+    String toastBaseString = "This button will launch ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,4 +39,11 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void launchApp(View view) {
+        Button button = (Button) view;
+        String message = String.format("%s%s", toastBaseString, button.getText());
+        // TODO: display a toast
+    }
+
 }
