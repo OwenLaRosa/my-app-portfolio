@@ -1,11 +1,13 @@
 package com.owenlarosa.myappportfolio;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,8 +44,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void launchApp(View view) {
         Button button = (Button) view;
+        // Java string interpolation syntax from http://stackoverflow.com/questions/6389827/string-variable-interpolation-java
         String message = String.format("%s%s", toastBaseString, button.getText());
-        // TODO: display a toast
+        // display a toast, example from: https://developer.android.com/guide/topics/ui/notifiers/toasts.html
+        Context context = getApplicationContext();
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(context, message, duration);
+        toast.show();
     }
 
 }
