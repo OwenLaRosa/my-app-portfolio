@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/my_nanodegree_apps"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal"
         android:paddingBottom="8dp"/>
@@ -21,7 +21,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Popular Movies"
+        android:text="@string/popular_movies"
         android:onClick="launchApp"
         android:textColor="#ffffff"
         android:backgroundTint="#2E3D49"/>
@@ -29,7 +29,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Stock Hawk"
+        android:text="@string/stock_hawk"
         android:onClick="launchApp"
         android:textColor="#ffffff"
         android:backgroundTint="#2E3D49"/>
@@ -37,7 +37,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Build-it-Bigger"
+        android:text="@string/build_it_bigger"
         android:onClick="launchApp"
         android:textColor="#ffffff"
         android:backgroundTint="#2E3D49"/>
@@ -45,7 +45,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Make Your App Material"
+        android:text="@string/make_your_app_material"
         android:onClick="launchApp"
         android:textColor="#ffffff"
         android:backgroundTint="#2E3D49"/>
@@ -53,7 +53,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Go Ubiquitous"
+        android:text="@string/go_ubiquitous"
         android:onClick="launchApp"
         android:textColor="#ffffff"
         android:backgroundTint="#2E3D49"/>
@@ -61,7 +61,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Capstone"
+        android:text="@string/capstone"
         android:onClick="launchApp"
         android:textColor="#ffffff"
         android:backgroundTint="#2E3D49"/>
