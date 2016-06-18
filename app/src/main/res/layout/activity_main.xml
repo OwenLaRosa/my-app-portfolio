@@ -2,10 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="64dp"
-    android:paddingRight="64dp"
-    android:paddingTop="64dp"
-    android:paddingBottom="64dp"
+    android:paddingLeft="@dimen/linear_layout_padding"
+    android:paddingRight="@dimen/linear_layout_padding"
+    android:paddingTop="@dimen/linear_layout_padding"
+    android:paddingBottom="@dimen/linear_layout_padding"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
