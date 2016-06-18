@@ -23,47 +23,47 @@
         android:layout_height="wrap_content"
         android:text="@string/popular_movies"
         android:onClick="launchApp"
-        android:textColor="#ffffff"
-        android:backgroundTint="#2E3D49"/>
+        android:textColor="@color/white"
+        android:backgroundTint="@color/udacious_gray"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/stock_hawk"
         android:onClick="launchApp"
-        android:textColor="#ffffff"
-        android:backgroundTint="#2E3D49"/>
+        android:textColor="@color/white"
+        android:backgroundTint="@color/udacious_gray"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/build_it_bigger"
         android:onClick="launchApp"
-        android:textColor="#ffffff"
-        android:backgroundTint="#2E3D49"/>
+        android:textColor="@color/white"
+        android:backgroundTint="@color/udacious_gray"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/make_your_app_material"
         android:onClick="launchApp"
-        android:textColor="#ffffff"
-        android:backgroundTint="#2E3D49"/>
+        android:textColor="@color/white"
+        android:backgroundTint="@color/udacious_gray"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/go_ubiquitous"
         android:onClick="launchApp"
-        android:textColor="#ffffff"
-        android:backgroundTint="#2E3D49"/>
+        android:textColor="@color/white"
+        android:backgroundTint="@color/udacious_gray"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/capstone"
         android:onClick="launchApp"
-        android:textColor="#ffffff"
-        android:backgroundTint="#2E3D49"/>
+        android:textColor="@color/white"
+        android:backgroundTint="@color/udacious_gray"/>
 
 </LinearLayout>
